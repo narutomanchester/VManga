@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HHFavorView" customModule="HH__VManga" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyFavorBookView" destination="i5M-Pr-FkT" id="p5p-LG-gcb"/>
+                <outlet property="favorBookView" destination="CTl-0R-snE" id="cjB-Bb-c8i"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wPD-Kk-rwa">
+                    <rect key="frame" x="94" y="247" width="187.5" height="124"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Để đánh dấu truyện yêu thích, chọn nút Yêu thích ở trang thông tin truyện." lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcE-VM-aQ1">
+                    <rect key="frame" x="63" y="454" width="249" height="57.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Không có truyện yêu thích" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4L-3N-UZA">
+                    <rect key="frame" x="63" y="421" width="250" height="23"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="wPD-Kk-rwa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GYD-Ym-dHZ"/>
+                <constraint firstItem="HcE-VM-aQ1" firstAttribute="top" secondItem="g4L-3N-UZA" secondAttribute="bottom" constant="10" id="JoD-nG-cTC"/>
+                <constraint firstItem="wPD-Kk-rwa" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="1:2" id="Ppm-xl-b4o"/>
+                <constraint firstItem="wPD-Kk-rwa" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Txs-lH-pZP"/>
+                <constraint firstItem="HcE-VM-aQ1" firstAttribute="leading" secondItem="g4L-3N-UZA" secondAttribute="leading" id="dNz-In-zEK"/>
+                <constraint firstItem="g4L-3N-UZA" firstAttribute="top" secondItem="wPD-Kk-rwa" secondAttribute="bottom" constant="50" id="hFM-l7-Rb7"/>
+                <constraint firstItem="wPD-Kk-rwa" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1:5" id="jpV-sW-aUX"/>
+                <constraint firstItem="HcE-VM-aQ1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kc7-Zq-VXo"/>
+                <constraint firstItem="g4L-3N-UZA" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="2:3" id="qIW-Yu-p1n"/>
+                <constraint firstItem="g4L-3N-UZA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uBB-Rk-5Yf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="134.5" y="463"/>
+        </view>
+        <view contentMode="scaleToFill" id="CTl-0R-snE">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-334" y="463"/>
+        </view>
+    </objects>
+</document>
