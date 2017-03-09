@@ -6,4 +6,13 @@
 //  Copyright © 2017 mac. All rights reserved.
 //
 
-import Foundation
+import Alamofire
+import SwiftyJSON
+
+class SearchManager{
+    static let share = SearchManager()
+    
+    func searchAllBooks(completion : @escaping(_ null : Bool, _ book: [Book]) -> Void){
+    
+    }
+}

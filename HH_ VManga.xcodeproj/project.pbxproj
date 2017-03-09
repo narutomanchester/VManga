@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413FA3D1E7041E800C0E07D /* HHRecentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413FA3B1E7041E800C0E07D /* HHRecentTableViewCell.swift */; };
+		0413FA3E1E7041E800C0E07D /* HHRecentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413FA3C1E7041E800C0E07D /* HHRecentTableViewCell.xib */; };
+		0413FA401E705DF100C0E07D /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413FA3F1E705DF100C0E07D /* SearchManager.swift */; };
+		0413FA421E7060AA00C0E07D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413FA411E7060AA00C0E07D /* Constant.swift */; };
+		0413FA441E71A39300C0E07D /* HHRecentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413FA431E71A39300C0E07D /* HHRecentTableViewController.swift */; };
+		043B05131E6FEFEF00E3B6FB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B05121E6FEFEF00E3B6FB /* Book.swift */; };
+		043B05161E6FF03300E3B6FB /* InternetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B05151E6FF03300E3B6FB /* InternetStatus.swift */; };
 		04432A431E6E68B700552B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04432A421E6E68B700552B44 /* AppDelegate.swift */; };
-		04432A451E6E68B700552B44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04432A441E6E68B700552B44 /* ViewController.swift */; };
 		04432A481E6E68B700552B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04432A461E6E68B700552B44 /* Main.storyboard */; };
 		04432A4A1E6E68B700552B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04432A491E6E68B700552B44 /* Assets.xcassets */; };
 		04432A4D1E6E68B700552B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04432A4B1E6E68B700552B44 /* LaunchScreen.storyboard */; };
+		04432A581E6E6F2800552B44 /* TabBarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04432A571E6E6F2800552B44 /* TabBarAnimation.swift */; };
+		04AB85FA1E6ED13C005F87C2 /* HHFavorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB85F91E6ED13C005F87C2 /* HHFavorView.swift */; };
+		04AB85FE1E6EDB83005F87C2 /* HHFavorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB85FD1E6EDB83005F87C2 /* HHFavorView.xib */; };
+		04AB86001E6EDBC2005F87C2 /* HHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB85FF1E6EDBC2005F87C2 /* HHHomeViewController.xib */; };
+		04AB86021E6EDBCB005F87C2 /* HHRecentBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AB86011E6EDBCB005F87C2 /* HHRecentBookViewController.xib */; };
+		E13A8C549F1B958C4DBE557C /* Pods_HH__VManga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F6E993D61A43224FF788F1 /* Pods_HH__VManga.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0413FA3B1E7041E800C0E07D /* HHRecentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HHRecentTableViewCell.swift; path = RecentView/HHRecentTableViewCell.swift; sourceTree = "<group>"; };
+		0413FA3C1E7041E800C0E07D /* HHRecentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHRecentTableViewCell.xib; path = RecentView/HHRecentTableViewCell.xib; sourceTree = "<group>"; };
+		0413FA3F1E705DF100C0E07D /* SearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchManager.swift; path = DataManager/SearchManager.swift; sourceTree = "<group>"; };
+		0413FA411E7060AA00C0E07D /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = DataManager/Constant.swift; sourceTree = "<group>"; };
+		0413FA431E71A39300C0E07D /* HHRecentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HHRecentTableViewController.swift; path = RecentView/HHRecentTableViewController.swift; sourceTree = "<group>"; };
+		043B05121E6FEFEF00E3B6FB /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = Model/Book.swift; sourceTree = "<group>"; };
+		043B05151E6FF03300E3B6FB /* InternetStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InternetStatus.swift; path = DataManager/InternetStatus.swift; sourceTree = "<group>"; };
 		04432A3F1E6E68B700552B44 /* HH_ VManga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HH_ VManga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04432A421E6E68B700552B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04432A441E6E68B700552B44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04432A471E6E68B700552B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04432A491E6E68B700552B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04432A4C1E6E68B700552B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04432A4E1E6E68B700552B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04432A571E6E6F2800552B44 /* TabBarAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarAnimation.swift; sourceTree = "<group>"; };
+		04AB85F91E6ED13C005F87C2 /* HHFavorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HHFavorView.swift; path = XIb/HHFavorView.swift; sourceTree = "<group>"; };
+		04AB85FD1E6EDB83005F87C2 /* HHFavorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHFavorView.xib; path = XIb/HHFavorView.xib; sourceTree = "<group>"; };
+		04AB85FF1E6EDBC2005F87C2 /* HHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHHomeViewController.xib; path = XIb/HHHomeViewController.xib; sourceTree = "<group>"; };
+		04AB86011E6EDBCB005F87C2 /* HHRecentBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HHRecentBookViewController.xib; path = XIb/HHRecentBookViewController.xib; sourceTree = "<group>"; };
+		3004AF2261E5DCCA6351E5B0 /* Pods-HH_ VManga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HH_ VManga.release.xcconfig"; path = "Pods/Target Support Files/Pods-HH_ VManga/Pods-HH_ VManga.release.xcconfig"; sourceTree = "<group>"; };
+		C4D9DEB415EAB3295787A9DF /* Pods-HH_ VManga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HH_ VManga.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HH_ VManga/Pods-HH_ VManga.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F6E993D61A43224FF788F1 /* Pods_HH__VManga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HH__VManga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13A8C549F1B958C4DBE557C /* Pods_HH__VManga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043B05101E6FEED200E3B6FB /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		043B05111E6FEEE200E3B6FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043B05121E6FEFEF00E3B6FB /* Book.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		043B05141E6FF00D00E3B6FB /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				043B05151E6FF03300E3B6FB /* InternetStatus.swift */,
+				0413FA3F1E705DF100C0E07D /* SearchManager.swift */,
+				0413FA411E7060AA00C0E07D /* Constant.swift */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
 		04432A361E6E68B700552B44 = {
 			isa = PBXGroup;
 			children = (
 				04432A411E6E68B700552B44 /* HH_ VManga */,
 				04432A401E6E68B700552B44 /* Products */,
+				CE9154F1571A935C7CD59533 /* Pods */,
+				29CD5F4D2C492BBC6950CAE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +108,73 @@
 		04432A411E6E68B700552B44 /* HH_ VManga */ = {
 			isa = PBXGroup;
 			children = (
+				043B05141E6FF00D00E3B6FB /* DataManager */,
+				043B05111E6FEEE200E3B6FB /* Model */,
+				04432A551E6E6EFA00552B44 /* Views */,
 				04432A421E6E68B700552B44 /* AppDelegate.swift */,
-				04432A441E6E68B700552B44 /* ViewController.swift */,
 				04432A461E6E68B700552B44 /* Main.storyboard */,
 				04432A491E6E68B700552B44 /* Assets.xcassets */,
 				04432A4B1E6E68B700552B44 /* LaunchScreen.storyboard */,
 				04432A4E1E6E68B700552B44 /* Info.plist */,
 			);
 			path = "HH_ VManga";
+			sourceTree = "<group>";
+		};
+		04432A551E6E6EFA00552B44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043B05101E6FEED200E3B6FB /* HomeView */,
+				04AB86031E6EF54F005F87C2 /* RecentView */,
+				04AB85F81E6ED0C4005F87C2 /* Xib */,
+				04432A561E6E6EFA00552B44 /* Animation */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04432A561E6E6EFA00552B44 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				04432A571E6E6F2800552B44 /* TabBarAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		04AB85F81E6ED0C4005F87C2 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				04AB85F91E6ED13C005F87C2 /* HHFavorView.swift */,
+				04AB85FD1E6EDB83005F87C2 /* HHFavorView.xib */,
+				04AB85FF1E6EDBC2005F87C2 /* HHHomeViewController.xib */,
+				04AB86011E6EDBCB005F87C2 /* HHRecentBookViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		04AB86031E6EF54F005F87C2 /* RecentView */ = {
+			isa = PBXGroup;
+			children = (
+				0413FA3B1E7041E800C0E07D /* HHRecentTableViewCell.swift */,
+				0413FA3C1E7041E800C0E07D /* HHRecentTableViewCell.xib */,
+				0413FA431E71A39300C0E07D /* HHRecentTableViewController.swift */,
+			);
+			name = RecentView;
+			sourceTree = "<group>";
+		};
+		29CD5F4D2C492BBC6950CAE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2F6E993D61A43224FF788F1 /* Pods_HH__VManga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9154F1571A935C7CD59533 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4D9DEB415EAB3295787A9DF /* Pods-HH_ VManga.debug.xcconfig */,
+				3004AF2261E5DCCA6351E5B0 /* Pods-HH_ VManga.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04432A511E6E68B700552B44 /* Build configuration list for PBXNativeTarget "HH_ VManga" */;
 			buildPhases = (
+				C19C5F9389CC980564360D57 /* [CP] Check Pods Manifest.lock */,
 				04432A3B1E6E68B700552B44 /* Sources */,
 				04432A3C1E6E68B700552B44 /* Frameworks */,
 				04432A3D1E6E68B700552B44 /* Resources */,
+				94560F517F574BDB940711E0 /* [CP] Embed Pods Frameworks */,
+				9909CBAD569B8B3A14777A4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +206,7 @@
 		04432A371E6E68B700552B44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HH;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = mac;
@@ -125,20 +242,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				04432A4D1E6E68B700552B44 /* LaunchScreen.storyboard in Resources */,
+				0413FA3E1E7041E800C0E07D /* HHRecentTableViewCell.xib in Resources */,
+				04AB86001E6EDBC2005F87C2 /* HHHomeViewController.xib in Resources */,
+				04AB85FE1E6EDB83005F87C2 /* HHFavorView.xib in Resources */,
 				04432A4A1E6E68B700552B44 /* Assets.xcassets in Resources */,
+				04AB86021E6EDBCB005F87C2 /* HHRecentBookViewController.xib in Resources */,
 				04432A481E6E68B700552B44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94560F517F574BDB940711E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HH_ VManga/Pods-HH_ VManga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9909CBAD569B8B3A14777A4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HH_ VManga/Pods-HH_ VManga-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19C5F9389CC980564360D57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04432A3B1E6E68B700552B44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04432A451E6E68B700552B44 /* ViewController.swift in Sources */,
+				0413FA441E71A39300C0E07D /* HHRecentTableViewController.swift in Sources */,
+				04432A581E6E6F2800552B44 /* TabBarAnimation.swift in Sources */,
+				0413FA421E7060AA00C0E07D /* Constant.swift in Sources */,
+				0413FA3D1E7041E800C0E07D /* HHRecentTableViewCell.swift in Sources */,
 				04432A431E6E68B700552B44 /* AppDelegate.swift in Sources */,
+				043B05131E6FEFEF00E3B6FB /* Book.swift in Sources */,
+				0413FA401E705DF100C0E07D /* SearchManager.swift in Sources */,
+				043B05161E6FF03300E3B6FB /* InternetStatus.swift in Sources */,
+				04AB85FA1E6ED13C005F87C2 /* HHFavorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +435,7 @@
 		};
 		04432A521E6E68B700552B44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D9DEB415EAB3295787A9DF /* Pods-HH_ VManga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FAZH6E59JU;
@@ -272,6 +449,7 @@
 		};
 		04432A531E6E68B700552B44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3004AF2261E5DCCA6351E5B0 /* Pods-HH_ VManga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FAZH6E59JU;
@@ -302,6 +480,7 @@
 				04432A531E6E68B700552B44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

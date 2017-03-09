@@ -6,4 +6,5 @@
 //  Copyright © 2017 mac. All rights reserved.
 //
 
-import Foundation
+let urlList100books = "http://wannashare.info/api/v1/list?$limit=100&$skip=0"
+

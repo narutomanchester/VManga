@@ -12,8 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HHFavorView" customModule="HH__VManga" customModuleProvider="target">
             <connections>
-                <outlet property="emptyFavorBookView" destination="i5M-Pr-FkT" id="p5p-LG-gcb"/>
-                <outlet property="favorBookView" destination="CTl-0R-snE" id="cjB-Bb-c8i"/>
+                <outlet property="emptyFavorBookView" destination="i5M-Pr-FkT" id="fqb-DV-m9w"/>
+                <outlet property="favorBookView" destination="CTl-0R-snE" id="Te0-3z-tl9"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
